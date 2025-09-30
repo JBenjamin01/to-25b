@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build C++ Project (MinGW-w64)",
+            "command": "g++",  
+            "args": [
+                "-std=c++17",
+                "-Wall",
+                "-g",
+                "${workspaceFolder}/src/*.cpp",
+                "-I", "${workspaceFolder}/include",
+                "-o", "${workspaceFolder}/bin/program.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compila todos los .cpp de src con MinGW-w64"
+        }
+    ]
+}
