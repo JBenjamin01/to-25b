@@ -41,7 +41,7 @@ public:
         listWidget->setGeometry(QRect(150, 20, 381, 201));
         labelColor = new QLabel(centralwidget);
         labelColor->setObjectName("labelColor");
-        labelColor->setGeometry(QRect(370, 190, 151, 20));
+        labelColor->setGeometry(QRect(340, 180, 181, 31));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
