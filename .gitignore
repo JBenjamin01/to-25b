@@ -1,0 +1,11 @@
+build*/
+*.user
+*.pro.user
+*.obj
+*.exe
+*.dll
+*.pdb
+*.qmake.stash
+moc_*
+qrc_*
+ui_*
